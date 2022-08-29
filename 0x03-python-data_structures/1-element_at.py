@@ -2,7 +2,7 @@
 
 def element_at(my_list, idx):
 
-    invalid = idx < 0 or idx >= len(my_list)
-    if invalid:
+    if idx < 0 idx > (len(my_list) - 1):
         return None
-    return my_list[idx]
+    else:
+        return my_list[idx]
