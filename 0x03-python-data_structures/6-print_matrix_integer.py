@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-print_matrix_integer(matrix=[[]]):
+def print_matrix_integer(matrix=[[]]):
 
     """Print a matrix of integers."""
     for i in range(len(matrix)):
